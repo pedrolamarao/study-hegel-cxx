@@ -1,0 +1,5 @@
+= study-hegel-cxx
+:author: Pedro Lamarão <pedro.unglue658@passinbox.com>
+:icons: font
+
+Estudo sobre _property testing_ com Hegel em linguagem C++.
