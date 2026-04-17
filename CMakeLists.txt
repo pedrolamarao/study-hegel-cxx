@@ -12,4 +12,9 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(hegel)
 
-add_subdirectory(study)
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(study main.cxx)
+
+target_link_libraries(study PRIVATE hegel)
+
