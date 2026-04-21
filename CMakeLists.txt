@@ -7,7 +7,7 @@ include(FetchContent)
 FetchContent_Declare(
     hegel
     GIT_REPOSITORY https://github.com/hegeldev/hegel-cpp.git
-    GIT_TAG main
+    GIT_TAG v0.3.4
 )
 
 FetchContent_MakeAvailable(hegel)
@@ -17,4 +17,3 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(study main.cxx)
 
 target_link_libraries(study PRIVATE hegel)
-
