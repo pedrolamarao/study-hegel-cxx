@@ -42,7 +42,7 @@ using std::vector;
 
 int main()
 {
-    hegel::hegel([] (hegel::TestCase& tc) {
+    hegel::test([] (hegel::TestCase& tc) {
         auto x = tc.draw(vectors(integers<unsigned>()));
         auto y = tc.draw(vectors(integers<unsigned>()));
 
