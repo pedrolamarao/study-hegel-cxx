@@ -55,6 +55,6 @@ int main()
         if (r1 != r2) {
             throw std::runtime_error("commutativity violated");
         }
-    },{ .test_cases = 1000, .verbosity = hegel::settings::Verbosity::Verbose });
+    },{ .test_cases = 1000, .verbosity = hegel::Verbosity::Verbose });
     return 0;
 }
